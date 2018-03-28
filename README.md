@@ -73,7 +73,7 @@ h('p', 'Hello, World!')
 <p>Hello, World.</p>
 ```
 
-All as many child elements as you want, even more `h`.
+Add as many child elements as you want, even more `h`.
 ```js
 const s = h('span.red', 'World')
 h('p', 'Hello, ', s, '!')
